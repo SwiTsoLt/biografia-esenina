@@ -121,7 +121,7 @@ header > .title {
 }
 
 header > .title > h1 {
-    font-size: 2em;
+    font-size: 3em;
     color: var(--text-color-white);
 }
 
