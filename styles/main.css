@@ -110,6 +110,21 @@ header {
     min-height: 100vh;
 }
 
+header > .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    padding: var(--padding) 0;
+    z-index: 2;
+}
+
+header > .title > h1 {
+    font-size: 2em;
+    color: var(--text-color-white);
+}
+
 header > .bg {
     position: absolute;
     left: 0;
@@ -227,7 +242,7 @@ footer > .content > p {
         grid-template-columns: 1fr;
     }
 
-    header > div:first-child {
-        display: none;
+    header > .title > h1 {
+        font-size: var(--font-size-h1);
     }
 }
