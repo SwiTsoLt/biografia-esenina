@@ -1,11 +1,13 @@
 :root {
     --text-color-black: #303030;
     --text-color-white: #ffffff;
-    --font-size-p: 16px;
-    --font-size-h4: 24px;
-    --font-size-h1: 40px;
+    --font-size-p: 1.2em;
+    --font-size-h4: 1.6em;
+    --font-size-h1: 2.4em;
+    --line-height: 1.4em;
     --white-wall: #ffffff30;
     --black-wall: #00000050;
     --border-radius: 8px; 
     --padding: 20px; 
+    --max-width: 800px;
 }
