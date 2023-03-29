@@ -121,7 +121,7 @@ header > .title {
 }
 
 header > .title > h1 {
-    font-size: 3em;
+    font-size: 5em;
     color: var(--text-color-white);
 }
 
@@ -235,6 +235,12 @@ footer > .content {
 
 footer > .content > p {
     color: var(--text-color-white);
+}
+
+@media screen and (max-width: 1400px) {
+    header > .title > h1 {
+        font-size: 3em;
+    }
 }
 
 @media screen and (max-width: 1000px) {
